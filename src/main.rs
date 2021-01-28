@@ -33,7 +33,7 @@ fn main(){
         Err(_) => 101,
     };
 
-    let secret_number = rand::thread_rng().gen_range(lower_limit, higher_limit);
+    let secret_number = rand::thread_rng().gen_range(lower_limit..higher_limit);
 
     let mut moves_made = 0;
 
