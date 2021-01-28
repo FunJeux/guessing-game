@@ -62,7 +62,7 @@ fn main(){
                 let total_moves_float = total_moves as f64;
                 let moves_made_float = moves_made as f64;
                 let efficiency: f64 = ((total_moves_float - moves_made_float) / total_moves_float) * 100.00;
-                println!("YOU HAVE WON!! making {} out of {} possible moves, showing {}% efficiency, showing" , moves_made, total_moves, efficiency);
+                println!("YOU HAVE WON!! \n Guesses Made: {}\n Possible Guesses: {}\n Efficiency: {}%" , moves_made, total_moves, efficiency);
                 break;
             },
         }
